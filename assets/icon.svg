@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">国产大模型选型助手</title>
+  <desc id="desc">三个模型节点汇入带勾选标记的选择器</desc>
+  <rect width="512" height="512" rx="80" fill="#F8FAFC"/>
+  <path d="M128 144h128M128 256h128M128 368h128" fill="none" stroke="#2563EB" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="96" cy="144" r="34" fill="#0F766E"/>
+  <circle cx="96" cy="256" r="34" fill="#F59E0B"/>
+  <circle cx="96" cy="368" r="34" fill="#DC2626"/>
+  <path d="M256 144l76 72M256 256h58M256 368l76-72" fill="none" stroke="#64748B" stroke-width="20" stroke-linecap="round"/>
+  <rect x="306" y="190" width="144" height="132" rx="24" fill="#111827"/>
+  <path d="M342 256l28 28 50-60" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

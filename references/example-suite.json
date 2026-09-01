@@ -1,0 +1,26 @@
+{
+  "name": "基础指令遵循快速测试",
+  "system": "严格遵守输出格式，不要解释。",
+  "temperature": 0,
+  "max_tokens": 64,
+  "cases": [
+    {
+      "id": "exact-output",
+      "prompt": "只输出 BENCHMARK_OK",
+      "validator": {"type": "exact", "value": "BENCHMARK_OK"}
+    },
+    {
+      "id": "arithmetic",
+      "prompt": "17箱货物，每箱24件，运走58件，还剩多少件？只输出阿拉伯数字。",
+      "validator": {"type": "exact", "value": "350"}
+    },
+    {
+      "id": "structured-json",
+      "prompt": "只输出JSON，字段answer为42，字段valid为true。",
+      "validator": {
+        "type": "json_equals",
+        "value": {"answer": 42, "valid": true}
+      }
+    }
+  ]
+}
