@@ -1,6 +1,11 @@
 ---
 name: llm-model-selector-cn
 description: 为具体业务选择和比较 OpenAI 兼容大模型，基于真实任务测试质量、成功率、延迟和可选成本，并生成可复现的选型结论。适用于国产模型选型、模型迁移、主备模型规划、低成本替代和多模型基准测试；单纯排查 API 连接或鉴权故障不触发。
+slug: llm-model-selector-cn
+displayName: 国产大模型选型助手
+version: 1.0.1
+summary: 基于真实业务任务比较模型质量、响应速度、稳定性和可选成本
+license: MIT
 ---
 
 # 国产大模型选型助手
